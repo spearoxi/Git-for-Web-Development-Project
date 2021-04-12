@@ -1,4 +1,6 @@
- 1. What is Semantic HTML? 
+CSS + HTML Practice: https://codepen.io/spearoxi/pen/vYgWjRJ?editors=1100
+
+1. What is Semantic HTML? 
       Reinforces the meaning of content
 
     2. What is HTML used for? 
