@@ -1,0 +1,81 @@
+ 1. What is Semantic HTML? 
+      Reinforces the meaning of content
+
+    2. What is HTML used for? 
+      To structure a web page and its content.
+
+    3. What is an attribute and where do we put it? 
+        Attributes provide additional information about elements. We put it in the opening tag.
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+        It is used for the heading of a webpage and should only be used once.
+    5. Name two tags that have required attributes
+        <a> <img>
+    6. What do we put in the head of our HTML document? 
+        <h1>
+    7. What is an id? 
+        specifies a unique id for an HTML element
+    8. What elements can I add an id to? 
+        <h1> <h2>  <h3> <h4> <h5 <h6>
+    9. How many times can I use the same id on a page? 
+        once
+    10. What is a class? 
+        attribute which specifies one or more classnames for an element
+    11. What elements can I add a class to? 
+        any HTML elemnt
+    12. How many times can I use the same class on a page? 
+        unlimited amount of times
+    13. How do I get my link to open in a new tab?
+        by adding the target=”_blank” attribute and inserting it after the link address
+    14. What is the alt attribute in the image tag used for? 
+        adds a text description to an image on a Web page
+    15. How do I reference an id?
+        # followed by an id name
+    16. What is the difference between a section and a div
+        <section> means that the content inside is grouped. <div> is a generic container
+    17. What is CSS used for? 
+        CSS is used to edit the presentation of a web page including color, layouts, and fonts
+    18. How to we select an element? Example - every h2 on the page
+        use the selector *.     Example: *h2
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        An id is only used to identify a single element in your HTML while a class can identify multiple elements.
+            <div id = "bar"> This is an id styled with my-div </div>
+                <div class = "low"> This is one element in a class </div>
+                <div class = "low"> This is another element in the same class! </div>
+    20. How do we select classes in CSS?
+        type . followed by the class
+    21. How do we select a p element with a single class of “human””?
+        .human p
+    22. What is a parent child selector? When would this be useful? 
+        A parent child selcctor selects all elements that are a direct child of the specified element.
+    23. How do you select all links within a div with the class of sidebar?
+    . sidebar a:link{}
+        
+    24. What is a pseudo selector?
+        a selector that selects elements that are in a specific state,  e.g. they are the first element of their type, or they are being hovered over by the mouse pointer.
+    25. What do we use to change the spacing between lines?
+        line-height
+    26. What do we use to change the spacing between letters?
+        letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        Change to all caps with text-transform:uppercase. Set to lowercase with text-transform:lowercase. Set to capitalize with text-transform:capitalize. 
+    28. How do I add a 1px border around my div that is dotted and black?
+        <div style="border: dotted 1px black" id="mydiv">content</div> 
+    29. How do I select everything on the page? 
+        *
+    30. How do I write a comment in CSS?
+        start a comment with /* , and end it with */
+    31. How do I find out what file I am in, when I am using the command line? 
+        pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+        ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        rm <file>
+    34. Why should I use version control? 
+        Version control is important to keep track of changes and keep every team member working off the latest version.
+    35. How often should I commit to github?
+        Whenever you make progress. A couple times per hour or whenever a feature is finished.
+    36. What is the command we would use to push our repo up to github? 
+        git push
+    37. Walk me through Lambda's git flow. 
+    Fork. Clone. Create branch. Run git commands and commit. Push to branch. Create pull request.
